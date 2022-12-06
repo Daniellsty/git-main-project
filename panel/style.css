@@ -1,0 +1,262 @@
+:root {
+    --color-bg-1: white;
+    --color-bg-2: rgba(209, 0, 0, 0.03);
+    --color-bg-3: #f1f2f6;
+    --color-bg-4: rgba(255, 255, 255, 0.6);
+    --color-bg-5: rgba(0, 0, 0, 0.02);  
+    --color-icon-1: #2980b9;
+    --color-icon-2: rgb(83, 72, 72);
+    --color-icon-3: rgba(0, 0, 0, 0.3);
+    --color-border-1: rgba(0, 0, 0, 0.05);
+    --color-text-span: rgba(0, 0, 0, 0.6);
+    --color-text-header: #444;
+    --color-text-header-2: #2980b9;
+    --color-text-paragraph: #666;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+body{
+  font-size: 16px;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.panel{
+  display: grid;
+  grid-template-columns: 2fr  11fr;
+
+}
+
+.panel-min{
+  display: grid;
+  grid-template-columns: 1fr 13fr;
+}
+
+
+.right{
+
+  padding: 20px;
+}
+
+.right .section{
+
+
+  width: 100%;
+  min-height: 800px;
+
+}
+
+.right .section .profile{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.right .section .profile i{
+
+  margin:0px 5px;
+}
+.right .section .profile img{
+
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.right .section .details{
+  padding-top: 20px;
+  
+}
+
+.right .section .details .details-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(202, 200, 200);
+}
+
+.right .section  .menu{
+
+  margin-top: 50px;
+ 
+}
+
+.right .section .menu .item-menu{
+
+
+ display: flex;
+ justify-content: flex-start;
+ font-size: 1.3em;
+ padding: 20px 30px 20px 20px;
+}
+
+.right .section .menu .item-menu i{
+
+  color: var(--color-icon-1);
+}
+
+.right .section .menu .item-menu span{
+  margin-right: 25px;
+  color: var(--color-text-header);
+}
+.right .section .menu .item-menu:hover{
+  background-color: var(--color-bg-3);
+}
+
+.left{
+ 
+}
+
+.left nav{
+
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.left nav .left{
+
+ 
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 20px;
+}
+.left nav .left i{
+  margin: 0px 10px;
+}
+
+.left nav .right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 0px 10px;
+}
+
+
+.left nav .right .search{
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 15px;
+  padding: 8px;
+  padding-left: 11px;
+  direction: ltr;
+}
+.left nav .right .input{
+
+  position: relative;
+  padding: 15px 10px ;
+  border: transparent;
+  border-radius: 5px;
+  outline: none;
+  background-color: var(--color-bg-3);
+}
+
+.left nav .right #icon{
+  position: absolute;
+  color: var(--color-icon-3);
+
+}
+
+.left .header-message{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 45px;
+}
+
+.left .header-message p{
+
+  background-color:var(--color-bg-3);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.left nav .right i{
+
+  margin: 0px 10px;
+}
+
+main{
+  background-color: var(--color-bg-3);
+  padding: 10px 30px;
+  
+}
+main .head{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 45px;
+}
+
+.left  .revenue-box{
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit ,minmax(260px , 1fr));
+
+}
+
+.left .header-content{
+
+  background-color:var(--color-bg-4);
+  display: flex;
+  margin: 30px 60px;
+  position: relative;
+  
+}
+
+.left .header-content .right{
+
+  display: flex;
+  padding:0px ;
+  
+
+}
+.left .header-content .right i{
+  color: var(--color-icon-1);
+  background-color:var(--color-bg-5);
+  padding: 30px 10px;
+
+}
+
+.left .header-content .left{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.left .header-content .left #text{
+  color: var(--color-icon-1);
+}
+
+.left .head{
+  background-color: var(--color-bg-4);
+  padding: 0px 10px;
+}
+
+
+.left .head .left i{
+  margin: 0px 5px;
+}
+
+.left .revenu-box{
+
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}

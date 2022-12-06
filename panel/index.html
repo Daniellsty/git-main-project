@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+  
+   <div class="panel" id="panel">
+    <div class="right">
+       <section class="section">
+         <div class="profile">
+           <img src="./image/member2.jpg" alt="">
+           <span>محمد حسین</span>
+           <i onclick="toggleUserDetails()" class="fas fa-angle-up"></i>
+          </div>
+           <div class="details">
+           <div class="details-items">
+            <span>سطح دسترسی :</span>
+            <span>ادمین</span>
+           </div>
+           <div class="details-items">
+            <span>وضعیت : </span>
+            <span>انلاین</span>
+           </div>
+           </div>
+          
+           <div class="menu">
+             <a class="item-menu" href="">
+              <i class="fas fa-bell"></i>
+              <span>محصولات</span>
+             </a>
+             <a class="item-menu" href="">
+              <i class="fas fa-bell"></i>
+              <span>سفارش ها</span>
+             </a>
+             <a class="item-menu" href="">
+              <i class="fas fa-bell"></i>
+              <span>گزارش ها</span>
+             </a>
+             <a class="item-menu" href="">
+              <i class="fas fa-bell"></i>
+              <span>پشتیبانی</span>
+             </a>
+             <a class="item-menu" href="">
+              <i class="fas fa-bell"></i>
+              <span>کاربر ها</span>
+             </a>
+           </div>
+        
+       </section>
+    </div>
+    <div class="left">
+       <nav>
+        
+        <div class="right">
+          <i onclick="togglePanel()" class="fas fa-bars"></i>
+          <div class="search">
+          <input class="input" title="input" type="text" />
+          <i id="icon" class="fas fa-search"></i>
+        </div>
+        </div>
+        <div class="left">
+          <a href=""><i class="fas fa-bell"></i></a>
+          <a href=""><i class="fas fa-cog"></i></a>
+          <a href=""><i class="fas fa-power-off"></i></a>
+        </div>
+      </nav>
+      <div class="header-message">
+         <h3>اخرین ورود 2 روز پیش</h3>
+         <p>فارسی</p>
+        </div>
+  
+       
+        <main>
+          <div class="revenue-box">
+          <div class="header-content">
+        <div class="right">
+          <i class="fas fa-clipboard-list"></i>
+        </div>
+          <div class="left">
+          <span id="text">تکمیل انبار</span>
+          <span>400</span>
+        </div>
+      </div>
+        <div class="header-content">
+        <div class="right">
+          <i class="fas fa-clipboard-list"></i>
+        </div>
+        <div class="left">
+          <span id="text"> محصولات</span>
+          <span>400</span>
+        </div>
+      </div>
+        <div class="header-content">
+        <div class="right">
+          <i class="fas fa-clipboard-list"></i>
+        </div>
+        <div class="left">
+          <span id="text">تحویل پست</span>
+          <span>50</span>
+        </div>
+      </div>
+        <div class="header-content">
+        <div class="right">
+          <i class="fas fa-clipboard-list"></i>
+        </div>
+        <div class="left">
+          <span id="text">تسویه </span>
+          <span>2000</span>
+        </div>
+      </div>
+    </div>
+       <div class="head">
+        <div class="right">
+          درآمد
+        </div>
+        <div class="left">
+          <i class="fas fa-cog"></i>
+          <i class="fas fa-redo"></i>
+        </div>
+       </div>
+       <div class="revenu-box">
+      
+        <div class="chart">
+          <canvas id="myChart" width="300" height="150"></canvas>
+        </div>
+     </div>
+      </main>
+    
+    </div>
+  </div>
+   </div>
+   
+   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="./chart.js"></script>
+</body>
+</html>
+

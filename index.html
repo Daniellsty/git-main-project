@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="flexboxgrid.css">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+   
+</head>
+<body>
+ 
+    <header>
+        <div class="container7">
+            <section class="section">
+            <div class="header-left">
+                <div class="button-left">
+                <a href="#">ثبت نام / ورود<i class="fa-solid fa-user"></i></a>
+              </div>
+            </div>
+            <div class="header-right">
+               
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-house"></i>
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-user"></i>
+            </div>
+          </section>
+        </div>
+    </header>
+ 
+    <section>
+      <nav>
+        <div class="nav-container">
+            <div class="nav-images">
+               <div class="slide active" id="item1">
+                <img src="./images/s1.jpg" alt="" >
+                <span style=" position: absolute; left: 50%;">آهنگ ها رو زنده تر از اون چیزی که هستن گوش بده</span>
+               </div>
+
+               <div class="slide "  id="item2">
+                <img src="./images/s2.jpg" alt="">
+                <span  style="color: white; position: absolute; left: 70%;"> کیفیت صدایی که همیشه   <br>  دنبالش بودی اینجاست   </span>
+               </div>
+               <div class="slide " id="item3">
+                <img src="./images/s3.jpg" alt="" >
+                <span>رویا هاتو با صدای بلند گوش بده </span>
+               
+               </div>
+
+               <div class="slide-buttons">
+                <i onclick="slider('item1' , 1)" class="fa-solid fa-circle" ></i>
+                <i onclick="slider('item2' , 2)" class="fa-solid fa-circle" ></i>
+                <i onclick="slider('item3' , 3)" class="fa-solid fa-circle" ></i>
+              </div>
+            </div>
+           
+        </div>
+    </nav>  
+</section>
+<main>
+    <section>
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 " >
+               
+                <div class="product">
+                    <div class="product-top">
+                      
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>پیشنهاد ویژه</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="./images/p1.jpg" alt="">
+        
+                    </div>
+                    <div class="product-desc">
+                        <p>هدست مخصوص بازی ایسوس</p>
+                    </div>
+                    <div class="product-details">
+                       
+                        <div class="product-icons">
+                            <i class="fa-solid fa-cart-shopping"><span>خرید</span></i>
+                            <i class="fa-solid fa-heart"><span>علاقه</span></i>
+                        </div>
+                        <p>900 هزار تومان</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" >
+                <div class="product" style="padding-top: 40px;">
+                    <div class="product-top">
+                        <div class="stars"  style="position: relative ;top: -20px;">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                       
+                        <p style="display: none;">پیشنهاد ویژه</p>
+                        
+                    </div>
+                    <div class="product-img">
+                        <img src="./images/p2.jpg" alt="">
+        
+                    </div>
+                    <div class="product-desc">
+                        <p>s100هدست بی سیم ریو مدل </p>
+                    </div>
+                    <div class="product-details">
+                       
+                        <div class="product-icons">
+                            <i class="fa-solid fa-cart-shopping"><span>خرید</span></i>
+                            <i class="fa-solid fa-heart"><span>علاقه</span></i>
+                        </div>
+                        <p>500 هزار تومان</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" >
+                <div class="product">
+                    <div class="product-top">
+                      
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>پیشنهاد ویژه</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="./images/p3.jpg" alt="">
+        
+                    </div>
+                    <div class="product-desc">
+                         <P> TH5304 هدست بی سیم تسکو مدل </p>
+                    </div>
+                    <div class="product-details">
+                       
+                        <div class="product-icons">
+                            <i class="fa-solid fa-cart-shopping"><span>خرید</span></i>
+                            <i class="fa-solid fa-heart"><span>علاقه</span></i>
+                        </div>
+                        <p>650 هزار تومان</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" >
+                <div class="product">
+                    <div class="product-top">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                       
+                        <p>پیشنهاد ویژه</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="./images/p4.jpg" alt="">
+        
+                    </div>
+                    <div class="product-desc">
+                        <p>TH 512هدست کامپیوتر تسکو مدل </p>
+                    </div>
+                    <div class="product-details">
+                     
+                        <div class="product-icons">
+                            <i class="fa-solid fa-cart-shopping"><span>خرید</span></i>
+                            <i class="fa-solid fa-heart"><span>علاقه</span></i>
+                        </div>
+                        <p>800 هزار تومان</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+ 
+
+    <div class="section-offer-box">
+        <div class="row">
+           
+            <div class="col-lg-9 col-md-7 col-sm-6 col-xs-12">
+               
+               
+                <div class="box-right-details">
+                    <div class="box-right">
+                        <span class="title">پیشنهاد شگفت انگیز</span>
+                    <div class="row">
+                       <div class="col-lg-4">
+                             <div class="image-container">
+                              <img src="./images/super-product.jpg" alt="">
+                            </div>
+                         </div>
+                        <div class="col-lg-8">
+                         <div class="price-row">
+                         <div class="box-right-desc">
+                            <span class="product-price">1میلیون تومان  </span>
+                            <span class="off">60 % تخفیف</span>
+                        </div>
+                            <div class="box-right-info">
+                               هدست ایسوس مدل strix 7.1
+                                </div>
+                              <div class="counter">
+                                <span id="sec"> 59 :</span>
+                                <span id="min"> 59 :</span>
+                                <span id="hour"> 24 </span>
+                                 <div class="counter-desc">
+                                    <p>زمان باقیمانده تا پایان سفارش</p>
+                                 </div>
+                            </div>
+                        </div>
+                       </div>
+                      </div>
+                    </div>
+                </div>
+               
+                </div> 
+                <div class="col-lg-3 col-md-5 col-sm-6 col-xs-12">
+                    <div class="banner">
+                        <img src="./images/friday.jpg" alt="">
+                    </div>
+            </div>
+        </div>
+       
+    </div>
+
+    <section class="dragable-list">
+        <div class="titel">
+            <span> هندزفری ها</span>
+        </div>
+        <div id="owl-product" class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="product">
+                    <div class="product-top">
+                        <div class="stars" >
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                       
+                        <p style="display: none;">پیشنهاد ویژه</p>
+                        
+                       </div>
+                    
+                    <div class="product-details">
+                 </div>
+                    <div class="product-img">
+                        <img src="./images/h1.jpg" alt="">
+                        <div class="product-desc">
+                           
+                        </div>
+                       <div class="div">
+                        <div class="product-icons">
+                            <i class="fa-solid fa-cart-shopping"><span>خرید</span></i>
+                            <i class="fa-solid fa-heart"><span>علاقه</span></i>
+
+                    </div>
+                    <p>500 هزار تومان</p>
+                     </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="item">
+                <div class="product">
+                    <div class="product-top">
+                        <div class="stars" >
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                       
+                        <p style="display: none;">پیشنهاد ویژه</p>
+                        
+                       </div>
+                    
+                    <div class="product-details">
+                 </div>
+                    <div class="product-img">
+                        <img src="./images/h2.jpg" alt="">
+                        <div class="product-desc">
+                           
+                        </div>
+                       <div class="div">
+                        <div class="product-icons">
+                            <i class="fa-solid fa-cart-shopping"><span>خرید</span></i>
+                            <i class="fa-solid fa-heart"><span>علاقه</span></i>
+
+                    </div>
+                    <p>500 هزار تومان</p>
+                     </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="item">
+                <div class="product">
+                    <div class="product-top">
+                        <div class="stars" >
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                       
+                        <p style="display: none;">پیشنهاد ویژه</p>
+                        
+                       </div>
+                    
+                    <div class="product-details">
+                 </div>
+                    <div class="product-img">
+                        <img src="./images/h3.jpg" alt="">
+                        <div class="product-desc">
+                           
+                        </div>
+                       <div class="div">
+                        <div class="product-icons">
+                            <i class="fa-solid fa-cart-shopping"><span>خرید</span></i>
+                            <i class="fa-solid fa-heart"><span>علاقه</span></i>
+
+                    </div>
+                    <p>500 هزار تومان</p>
+                     </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="item">
+                <div class="product">
+                    <div class="product-top">
+                        <div class="stars" >
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                       
+                        <p style="display: none;">پیشنهاد ویژه</p>
+                        
+                       </div>
+                    
+                    <div class="product-details">
+                 </div>
+                    <div class="product-img">
+                        <img src="./images/h4.jpg" alt="">
+                        <div class="product-desc">
+                           
+                        </div>
+                       <div class="div">
+                        <div class="product-icons">
+                            <i class="fa-solid fa-cart-shopping"><span>خرید</span></i>
+                            <i class="fa-solid fa-heart"><span>علاقه</span></i>
+
+                    </div>
+                    <p>500 هزار تومان</p>
+                     </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="item">
+                <div class="product">
+                    <div class="product-top">
+                        <div class="stars" >
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                       
+                        <p style="display: none;">پیشنهاد ویژه</p>
+                        
+                       </div>
+                    
+                    <div class="product-details">
+                 </div>
+                    <div class="product-img">
+                        <img src="./images/h5.jpg" alt="">
+                        <div class="product-desc">
+                           
+                        </div>
+                       <div class="div">
+                        <div class="product-icons">
+                            <i class="fa-solid fa-cart-shopping"><span>خرید</span></i>
+                            <i class="fa-solid fa-heart"><span>علاقه</span></i>
+
+                    </div>
+                    <p>500 هزار تومان</p>
+                     </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="item">
+                <div class="product">
+                    <div class="product-top">
+                        <div class="stars" >
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                       
+                        <p style="display: none;">پیشنهاد ویژه</p>
+                        
+                       </div>
+                    
+                    <div class="product-details">
+                 </div>
+                    <div class="product-img">
+                        <img src="./images/h6.jpg" alt="">
+                        <div class="product-desc">
+                           
+                        </div>
+                       <div class="div">
+                        <div class="product-icons">
+                            <i class="fa-solid fa-cart-shopping"><span>خرید</span></i>
+                            <i class="fa-solid fa-heart"><span>علاقه</span></i>
+
+                    </div>
+                    <p>500 هزار تومان</p>
+                     </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="item">
+                <div class="product">
+                    <div class="product-top">
+                        <div class="stars" >
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                       
+                        <p style="display: none;">پیشنهاد ویژه</p>
+                        
+                       </div>
+                    
+                    <div class="product-details">
+                 </div>
+                    <div class="product-img">
+                        <img src="./images/h7.jpg" alt="">
+                        <div class="product-desc">
+                           
+                        </div>
+                       <div class="div">
+                        <div class="product-icons">
+                            <i class="fa-solid fa-cart-shopping"><span>خرید</span></i>
+                            <i class="fa-solid fa-heart"><span>علاقه</span></i>
+
+                    </div>
+                    <p>500 هزار تومان</p>
+                     </div>
+                    </div>
+                  </div>
+              </div>
+            </div>  
+    </section>
+    <footer>
+        <div class="footer-container">
+           <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-8 ">
+                <div class="footer-titel">
+                    <h4>درباره ما</h4>
+                </div>
+                <div class="footer-desc">
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                </div>
+            </div>
+             <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="footer-info">
+                    <p>ما را در شبکه های اجتماعی دنبال کنید :</p>
+                </div>
+                <div class="footer-icons">
+                    <i class="fab fa-telegram-plane"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+             </div>
+           
+           </div>
+          
+        </div>
+        <div class="footer-law">
+            <p> کلیه حقوق محفوظ می باشد © 2019</p>
+          </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+     integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"></script>
+    <script src="./drage.js"></script>
+    <script src="./owl.carousel.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+    font: 16px;
+}
+
+
+.container{
+display: flex;
+margin-top: 50px;
+
+}
+
+.login-right{
+
+    background-color: rgba(255, 255, 255, .1);
+    width: 80%;
+    margin:  0px 100px 0px 0px;
+    direction: rtl;
+    border-radius: 10px;
+}
+
+.login-right .login-right-details{
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+
+.login-right .login-right-details input{
+
+    margin: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 1.8em;
+}
+
+.login-right .login-right-details label{
+
+    color: white;
+    margin: 10px 20px;
+}
+
+.login-right  p{
+
+    color: white;
+    margin: 10px 40px;
+}
+
+.login-right  p .tag-a{
+
+    color: red;
+    text-decoration: none;
+}
+
+.login-right .button button{
+
+    text-align: center;
+    background-color: rgb(245, 65, 65);
+    padding: 10px 20px;
+    color: white;
+    margin:40px auto;
+    display: block;
+    border: none;
+    border-radius: 15px;
+}
+
+.login-right .login-icons{
+
+    display:flex;
+    justify-content: space-around;
+    margin: 40px 20px 30px 20px;
+    color: white;
+    border-top: 1px solid white;
+    
+}
+
+.login-right .login-icons i{
+
+    
+    margin-top: 20px;
+}
+
+
+
+.container .login-left img{
+
+    width: 70%;
+}
+
+
+@media (max-width:700px){
+
+    .container .login-left img{
+
+       display: none;
+    }
+
+    .login-right{
+        margin: auto;
+    }
+
+}
